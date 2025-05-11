@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello Node');
+  res.send('Hello Node, This is the ECS deployenmt with node js');
 });
 
 app.listen(8080, () => {
